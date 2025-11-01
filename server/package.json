@@ -1,0 +1,17 @@
+{
+  "name": "tienda_backend",
+  "version": "1.0.0",
+  "description": "API CRUD para tienda en MySQL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch start.js",
+    "dev:3002": "node --watch start.js 3002",
+    "dev:free": "node --watch start.js 3001"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mysql2": "^3.10.0",
+    "cors": "^2.8.5"
+  }
+}
